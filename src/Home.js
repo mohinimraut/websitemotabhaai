@@ -471,7 +471,7 @@ sellers to promote,manage & sell their goods and services
 </div>
 
 {/* change */}
-<div id="registermobileview">
+<div style={{}} id="registermobileview">
 
   <div class="row justify-content-center">
   <div class="col-md-9">
@@ -510,10 +510,10 @@ sellers to promote,manage & sell their goods and services
   
   
 
-  <div>
+  <div id="footertopdiv">
   <div class="footercontainer" style={{backgroundColor:"#2C3D63"}}>
 
-<div class="row">
+<div id="footernonemobile" class="row">
 <div id="leftsubscribecontainer" class="col-6" >
 <div class="row" >
 <div id="footersubscribe" class="row">Subscribe</div>

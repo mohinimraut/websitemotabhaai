@@ -1374,8 +1374,11 @@ a.active_class {
 }
 
 @media (min-width: 425px) and (max-width: 574.98px) {
-  #registermobileview {
-    margin-top: 35rem;
+  #footertopdiv{
+    margin-top: 10rem;
+  }
+  #registermobileview{
+    margin-top: 40rem;
   }
   #mobileregistertitle {
     font-size: 60px;
@@ -1587,8 +1590,14 @@ a.active_class {
 /* Upgraded css  */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  #footertopdiv{
+    margin-top: 10rem;
+  }
+  #footernonemobile{
+    display:none;
+  }
   #registermobileview {
-    margin-top: 25rem;
+    margin-top: 35rem;
   }
   #mobileregistertitle {
     font-size: 60px;
