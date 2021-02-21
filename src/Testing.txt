@@ -1,0 +1,1777 @@
+// App.css
+// -------------------
+
+import CarouselPage from "./CarouselPage";
+
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  #header .brand-name{
+    color:#5c343c
+  }
+  #header h1{
+    margin :0 0 10px 0;
+    font-size:48px;
+    font-weight:700;
+    color:black;
+  }
+  #header h2{
+    color:#484848;
+    font-size:19px;
+  }
+  #header .btn-get-started{
+    font-weight:500;
+    font-size:16px;
+    letter-spacing: 1px;
+    display:inline-block;
+    padding:10px 30px;
+    border-radius:50px;
+    transition:0.5s;
+    color:#D2691E;
+    border:2px solid#D2691E;
+    text-decoration :none;;
+  }
+  #header .btn-get-started:hover{
+    background:#D2691E;
+    
+    color:#fff;
+  }
+  .header-img{
+    text-align:right
+  }
+  #header .animated{
+    animation:up-down 3s ease-in-out infinite alternate-reverse both;
+  }
+  @keyframes up-down{
+    0% {
+      transform:translateY(10px);
+  
+    }
+    100% {
+      transform:translateY(-100px);
+      
+    }
+  }
+  /* @keyframes up-down{
+    0% {
+      transform:translateY(10px);
+  
+    }
+    100% {
+      transform:translateY(-10px);
+      
+    }
+  } */
+  
+  
+  
+  /* .navbar-brand{
+    font-size: 1.9rem !important;
+    color:#565383 !important;
+  } */
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  /* .navbar{
+    background-color:#fff !important
+  } */
+  .servicecontainer{
+    background-color: white;
+  }
+  
+  .firstimage{
+    background-color:#E0E0E0;
+    min-height:280px;
+    border: 2px solid #000000;
+    border-radius:20px;
+    margin:20px;
+    padding-right:40px;
+    margin-left:100px;
+  
+  }
+  .secondtext{
+    /* background-color: white; */
+   padding-top: 100px;
+   padding-left:140px;
+  }
+  .textcontainerrightfirst{
+    font-size: 20px;
+    margin-left: 18px;
+  }
+  .secondcolfirst{
+    /* background-color: green; */
+  }
+  .secondcontainer{
+    margin-top:70px;
+    margin-left:100px;
+    margin-right:100px;
+  
+    max-height:300px;
+    /* background-color:pink */
+  }
+  .servicecontainer{
+   
+  }
+  #h6text{
+    text-align:center;
+  }
+  .card{
+    width: 29rem
+  }
+  /* .fa {
+    color:#f9fbfd
+  }  */
+  
+  .fa {
+    color:black
+  } 
+  #piconid{
+    color:#f9fbfd
+  
+  }
+  /* Start About Page*/
+  /* .breadcrumb{
+    display:flex;
+    flex-wrap:wrap;
+  
+    margin-bottom:1rem;
+    list-style:none;
+    background-color:#e9ecef;
+   
+    
+    } */
+  
+    .breadcrumbs-section{
+      background-color:#e9ecef;
+    }
+    .aboutclass{
+      padding-right:10rem;
+    }
+    
+  
+    /* Feature page start*/
+    .featuretopbar{
+      /* background-color:gray */
+    }
+    .modal-header .close{
+      padding:0;
+      margin:0;
+      border:2px solid gray;
+  border-radius:50px;
+  width:30px;
+  height:30px;
+  flex-direction:row;
+    }
+    /* .sellfeaturecontainer{
+      height:400px;
+      border:1px solid #E5CCFF;
+      margin:10px
+    } */
+    .sellimage{
+      height:200px
+    }
+    .secondcontainerfeature{
+      border:1px solid #E5CCFF;
+  
+    }
+   .featureonlinecatalogue{
+     display:block;
+     width:600px;
+     word-wrap:break-word;
+    
+   }
+   
+   .featureqr{
+    width:400px;
+   
+  
+  }
+  .parafeatureordermanagemnet{
+    font-size:10px;
+  }
+  .featureparasubtitle{
+    font-size: 20px;
+  }
+  .featuremainpara{
+    font-size: 17px;
+  
+  }
+  .featurebodycontainer{
+    margin-top: 45px;
+    border:1px solid #c5d6fc;
+    
+  
+  }
+  
+  .featurebluesqurepara{
+  color:red;
+  }
+  .secondfeaturecontainer{
+    border:1px solid #c5d6fc;
+  
+    margin-top: 20px;
+  
+  }
+  .threefeaturecontainer{
+    border:1px solid #c5d6fc;
+  
+    margin-top: 20px;
+  }
+  .carouselcontainer{
+    width: 1200px;
+    min-height: 600px;
+    height: auto;
+  
+    border:1px solid black;
+  
+  }
+  .carouselimagebackgroundcontainer{
+    background-color: red;
+  }
+  .featureimagecontainer{
+    height:100%;
+    width:100%;
+  
+  }
+  /*About page container*/
+  .abouttitle{
+    font-size: 40px;
+    font-family:Comfortaa;
+    color:#2c3d63;
+  
+  }
+  .aboutfootertitle{
+    font-size: 25px;
+    color:#2c3d63;
+   
+  }
+  .aboutmiddlepara{
+    font-size: 20px;
+    color:#2c3d63;
+  }
+  .aboutcontainer{
+    border:1px solid #c5d6fc;
+    padding: 5rem;
+  
+  
+  
+  }
+  
+  
+  /*home page*/
+  .hometitle{
+    font-size: 40px;
+   
+    color:#2c3d63; 
+  }
+  
+  
+  
+  
+  .solutionscontainertt{
+      background:linear-gradient(-100deg,white 50%,#2c3d63 50%);
+      height:100vh;
+      font-family:Comfortaa;
+  }
+  .solutionsecondcontainer{
+    /* padding-top:15%; */
+    padding-left:8%;
+  margin-top: 300px;
+  }
+  
+  .img-text{
+    width: 100%;
+    height:300px;
+    display:block;
+    text-align:center;
+    padding:40% 5%;
+    background:#262626;
+    color:#fff;
+    border-radius:15px;
+  }
+  
+  
+  
+  
+  
+  .solutioncarouselindicators{
+   
+  }
+  .solutioncarouselindicators li{
+    background:#2c3d63;
+  
+    /* border-radius:50%;
+    width:15px;
+    height:15px; */
+  }
+  .h2solutions{
+  font-size:46px;
+    font-family: 'Comfortaa', cursive;
+  
+  }
+  .solutionparar{
+  
+   
+  }
+  .customDiv{
+    margin:3px;
+    min-height:300px;
+   display: center;
+    text-align:left;
+    font-size:large;
+    vertical-align:middle;
+    
+  }
+  
+  .customDivParaHead{
+  
+  text-align: center;
+  vertical-align:middle	;
+    min-height:300px;
+   display: center;
+   padding-top:100px;
+    font-size:large;
+   
+  }
+  .customDivParaHeadTest{
+  
+    align-items:left;
+    justify-content:center;
+    justify-content:center;
+    width:400px;
+    /* padding-top:160px; */
+    padding-left:5%;
+    }
+  
+  .solutionheadertitle{
+    font-family:Comfortaa;
+    color:white;
+  
+  }
+  .solutiontopcontainer{
+  background-color:#2c3d63
+  }
+  .featurepara{
+    text-align:center;
+  }
+  
+  .solutionicontitlerow{
+    flex-direction:row;
+  }
+  .solutioniconcontainer{
+    /* display:flex;
+    align-items:center;
+    justify-content:center;
+     */
+  }
+  .solutionfirsticon .ion-icon{
+    font-size: 640px;
+  }
+  .solutionrowcontainer{
+    height: 40vh;
+    top:200px;
+    /* padding-top:160px */
+    
+  }
+  
+  
+  /*========================Feature Page====================================*/
+  .featureparasubtitlem{
+    font-size:3rem;
+    text-align: center;
+   
+  }
+  .featuremainparam{
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  
+  
+  .parafeatureordermanagemnet{
+    font-size: 1rem;
+   
+  }
+  
+  
+  
+  
+  
+  .customOnlineTest{
+    display:flex;
+    align-items:left;
+    justify-content:center;
+    justify-content:center;
+  }
+  
+  .carouselOlIndicators li{
+    background:#2c3d63;
+  }
+  
+  .containerjoin{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#2c3d63;
+  
+    background-repeat: no-repeat;
+  
+  }
+  .innerContainer{
+    width:430px;
+    background:#fff;
+    border-radius:5px;
+    text-align:center;
+    padding:50px 35px 10px 35px;
+  
+  
+  }
+  .container header{
+    font-size:35px;
+    font-weight:600;
+    margin:0 0 35px 0;
+  }
+  .container .form-outer{
+  width:100%;
+  /* overflow: hidden; */
+  }
+  .form-outer form{
+    display:flex;
+    width:400%
+  }
+  .form-outer form .page{
+    width:25%;
+    transition:margin-left -0.3s ease-in-out;
+  }
+  .form-outer form .page .title{
+    text-align:left;
+    font-size:25px;
+    font-weight:500;
+  }
+  
+  .form-outer form .page .field{
+    height:45px;
+    width:350px;
+    margin:45px 0;
+  
+    position: relative;
+  }
+  .form-outer form .page .field label{
+    position:absolute;
+    top:-30px;
+    font-weight:500;
+  }
+  
+  .form-outer form .page .field input{
+    height:100%;
+    width:100%;
+    border:1px solid lightgrey;
+    border-radius:5px;
+    font-size:18px;
+    padding-left:15px;
+  }
+  form .page.field select{
+    width:100%;
+    padding-left:10px;
+    font-size:17px;
+    font-weight:500;
+  }
+  .form-outer form .page .field button{
+    width:100%;
+    height:calc(100% + 5px);
+    margin-top:-20px;
+    border:none;
+    background:#d43f8d;
+    border-radius:5px;
+    color:#fff;
+    font-size:18px;
+    font-weight:500;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    cursor: pointer;
+    transition:0.3s ease;
+  }
+  .form-outer form .page .field button:hover{
+    background:#000;
+  }
+  .form-outer form .page .btns button{
+    margin-top:-20px!important
+  }
+  .form-outer .page .btns button .prev{
+    margin-right: 3px;
+    font-size:17px;
+  
+  }
+  .form-outer .page .btns button .prev{
+    margin-left: 3px;
+    
+  
+  }
+  .container .progress-bar{
+    display: flex;
+    flex-direction: row;
+    margin:40px 0;
+    background-color: white;
+    color:black;
+  }
+  .container .progress-bar .step{
+    position:relative;
+  text-align:center;
+  width: 100%;
+  }
+  .progress-bar .step p{
+    font-size:18px;
+    font-weight:500;
+  }
+  
+  .progress-bar .step:last-child .bullet:before,
+  .progress-bar .step:last-child .bullet:after{
+    display:none;
+  }
+  
+  .progress-bar .step .bullet:before,
+  .progress-bar .step .bullet:after{
+  position:absolute;
+  content:'';
+  bottom:11px;
+  right:-51px;
+  height:3px;
+  width:44px;
+  background:#262626;
+  }
+  .progress-bar .step .bullet:after{
+    background:#d43f8d;
+    transform:scaleX(0);
+    transform-origin:left;
+    animation:animate 0.3s linear forwards;
+  }
+  @keyframes animate{
+  100%{
+    transform:scaleX(1);
+  }
+  }
+  
+  .progress-bar .step .bullet{
+    position:relative;
+    height:25px;
+    width:25px;
+    border:2px solid #000;
+    display:inline-block;
+    border-radius:50%;
+    
+  }
+  .progress-bar .step .span{
+    font-weight:500;
+    font-size:17px;
+    line-height:25px;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  .progress-bar .step .check{
+    display:none;
+    position:absolute;
+    left:50%;
+    top:70%;
+  font-size:15px;
+  transform:translate(-50% -50%);
+  
+  }
+  
+  /* Join Form */
+  .btn-danger {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: rgba(103, 192, 103, 0.75);
+    letter-spacing: 1px;
+   
+    border: 2px solid rgba(103, 192, 103, 0.75);
+    border-radius: 40px;
+    background:  rgba(103, 192, 103, 0.75);
+    transition: all 0.3s ease 0s;
+   color:#fff;
+   
+    
+  }
+  
+  .form-control:focus {
+    border-color: rgba(103, 192, 103, 0.75); 
+    box-shadow: 0px 1px 1px rgba(103, 192, 103, 0.75) inset, 0px 0px 8px rgba(2103, 192, 103, 0.75);
+  }
+  .verticleline{
+    border-left: 0.20px solid#91b3fd;
+   margin-top:-65px;
+    /* height: 470px auto; */
+  }
+  .completesubbutton{
+    text-decoration: none;
+    color:black;
+  }
+  .MuiSlider-root {
+    color: #fff;
+  }
+  
+  /*Navbar*/
+  a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  
+  /* Carousel Page*/
+  .carouselpagecontainer{
+    
+  }
+  
+  
+  
+  
+  /*Navbar css*/
+  
+  #navbarSupportedContent{
+    justify-content:flex-end;
+  }
+  
+  #navbarSupportedContent  a{
+    font-size: 17px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+  
+  .navlinkstyle{
+    color: rgb(109, 125, 160);
+    
+  }
+  
+  
+  a.active_class{
+    color:rgb(66, 81, 114);
+    border-bottom: 1px solid rgb(66, 81, 114);
+  
+  }
+  .aboutimage{
+    max-width: 90%;
+    max-height: 90%;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.2s ease 0s;
+  }
+  
+  .aboutrowcontainer{
+    max-width: 80%;
+    max-height: 100%;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.2s ease 0s;
+  }
+  .aboutrowcontainer{
+    max-width: 80%;
+  }
+
+  // =============================
+  // Home.css
+  // ===============================
+  
+.homecarousel{
+  border:1px solid black;
+  margin-top:30px; 
+  height:91%;
+}
+
+.homeContainer{
+  height: 485px;
+}
+
+ .img{
+   margin-top: 101px;
+ }
+
+.footercontainer{
+  position: relative;
+  bottom: 40px;
+  margin-right: 190px;
+
+
+
+}
+.manatext{
+  border-radius:20%; 
+  border:solid black 1px;
+  padding:5px
+}
+
+.row{
+  --bs-gutter-x:0 rem;
+}
+.carousel-indicators{
+  bottom:30%;
+  right:30%;
+  }
+  .carousel-dark .carousel-indicators li{
+    background-color:#2c3d63;
+
+      border-radius:50%;
+      width:15px;
+      height:15px;
+  }
+  /* @media screen and (max-width: 768px) {
+    .carouselpagenew {
+      background-color: olive;
+      margin-top:10%;
+      
+    }
+    .btn-default{
+      background-color:red;
+      max-width: 150px;
+      margin-right:20%;
+    }
+    .btn-primary{
+     
+      max-width: 150px;
+    margin-left:60%;
+    }
+    .carousel-dark .carousel-indicators li {
+      background-color: blue;
+      border-radius:50%;
+      width:15px;
+      height:15px;
+  }
+  
+  
+    
+  }
+   */
+  
+  
+  /* @media screen and (max-width: 768px){
+  .carousel-dark .carousel-indicators li {
+      background-color: pink;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+  }
+  }
+  
+  @media screen and (max-width: 1200px){
+    .carousel-dark .carousel-indicators li {
+        background-color: pink;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+    }
+    } */
+   
+
+    /* @media screen and (max-width: 600px) {
+      .carouselpagenew {
+        background-color: olive;
+      }
+      .btn-default{
+        background-color:red;
+        max-width: 120px;
+        float:left;
+      }
+      .btn-primary{
+       
+        max-width: 120px;
+        float:right;
+        margin-top: -35px;
+      }
+      
+    }
+     */
+     .cbcontainer{
+      align-self: center;
+
+ width:70%;
+      padding: 0;
+    
+     
+     }
+     .carousel-item{
+      text-align: center;
+     }
+     .cbcontainer {
+      display: inline-flex;
+     
+      }
+      #staynotify {
+        color: white;
+        }
+        #launchicon{
+          color:#2c3d63
+        }
+        #sendnotify{
+          color:black;
+        }
+        .input-icons i { 
+          position: absolute; 
+      } 
+        
+      .input-icons { 
+          width: 70%; 
+          margin-bottom: 10px; 
+      } 
+        
+      .icon { 
+          padding: 10px; 
+          color: green; 
+          min-width: 50px; 
+          text-align: center; 
+      } 
+        
+      .input-field { 
+          width: 100%; 
+          padding: 10px; 
+          text-align: center; 
+      } 
+     ==========================
+     CarouselPage
+     ===========================
+
+     import React from 'react'
+import blue1 from '../src/images/blue1.png';
+import AboutImage from '../src/images/aboutillustration.png';
+import AboutDiv from '../src/images/backgroundabout.png';
+
+export default class CarouselPage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {email: ''};
+    
+       
+        // this.saveEmailInfo = this.saveEmailInfo.bind(this);
+      }
+    render(){
+        return(
+            <div style={{}}>
+            <div class="container-fluid justify-content-center carouselpagenew" style={{}}>
+            <div id="carouselExampleDark" className="carousel carousel-dark slide homecarousel" data-bs-ride="carousel">
+    
+    <ol className="carousel-indicators" id="home">
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active"></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        </ol>
+        
+        <div className="carousel-inner">
+    
+        <div className="carousel-item active" data-bs-interval="5000">
+    
+            <div class="row justify-content-center text-center">
+                <div class="col-sm-8">
+                  <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"35px"}}><strong> Free Digital Platform</strong></p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-sm-8">
+                  <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"17px",fontWeight:"bold"}}>Sellers to promote,manage & sell their goos and services</p>
+                </div>
+            </div>
+            <div class="row justify-content-center cbcontainer">
+                <div class="col-md-2">
+                <button class="cbutton" style={{fontFamily:"Comfortaa",border:"1px solid orange",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-default">Learn More</button>
+    
+                </div>
+    
+                <div class="col-md-2 ">
+                <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#2c3d63",border:"1px solid #2c3d63",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-primary">Register</button>
+    
+                </div>
+    
+            </div>
+    
+    
+    
+    
+    
+            <div class="row justify-content-center" style={{marginTop:"100px"}}>
+    <div class="col-md-6"style={{border:"1px solid black",marginTop:"100px",height:"100px",borderRadius:"20px",border:"1px solid orange"}} >
+    
+     <div class="row" style={{width:"100%",height:"100%"}}>
+    <div class="col-md-6" style={{}}>
+    
+       <div class="row ml-3" style={{marginTop:"9%"}}>
+           <div class="col-md-12" >
+    <div class="row justify-content-center" style={{justifyItems:"center"}}>
+    <div class="col-md-1">
+    <ion-icon id="launchicon" name="cash-outline"></ion-icon>
+    
+    </div>
+              <div class="col-md-6" style={{flexDirection:"column"}}>
+              <div class="col-md-6" style={{fontFamily:"Comfortaa",color:"#2c3d63",fontWeight:"bold",fontSize:"12px"}}>Launching On</div>
+    
+    <div class="col-md-6" style={{fontFamily:"Comfortaa",fontSize:"18px",fontWeight:"bold",color:"#2c3d63"}}>April 2021</div>
+              </div>
+              
+    
+    </div>
+               
+    
+           </div>
+       </div>
+        
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-md-6" style={{borderRadius:"20px",border:"1px solid #2c3d63",backgroundColor:"#2c3d63"}}>
+    <div class="row">
+           <div class="col-md-12" >
+               
+    <div class="row justify-content-center" style={{marginTop:"5%"}}>
+    <div class="col-md-1">
+    <ion-icon id="staynotify" name="cash-outline"></ion-icon>
+    
+    </div>
+               <div style={{color:"white",fontFamily:"Comfortaa",fontSize:"12px"}} class="col-md-3">Stay Notified</div>
+    </div>
+               
+
+           </div>
+       </div>
+    
+    <div class="row">
+    <form class="emailstorecontainer" >
+          <div class="row justify-content-center text-center" style={{flexDirection:"row"}}>
+              <div className="col-9">
+              <input type="email" value={this.state.email} class="form-control email" placeholder="mail@gmail.com" />
+
+              {/* <input type="text" class="form-control" placeholder="&#xF002;"/>  */}
+              {/* <input type="email" value={this.state.email} class="email fa" placeholder="&#xf002; mail@gmail.com"/> */}
+
+
+              {/* <div class="input-icons"> 
+                <i class="fa fa-envelope icon"> 
+              </i> 
+                <input class="form-control" 
+                       type="text"
+                       placeholder="Email"/> F
+            </div>  */}
+
+              
+
+              </div>
+        
+           
+              <div class="col-1 pl-1">
+                <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#fada80",border:"1px solid #fada80",borderRadius:"5px",width:"3rem"}} type="button" class="btn btn-primary">
+
+                <ion-icon id="sendnotify" name="cash-outline" style={{}}></ion-icon>
+
+                </button>
+    
+                </div>
+
+            
+         
+          </div>
+          </form>
+    </div>
+    
+    
+    
+        
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+     </div>
+     
+      
+    </div>
+    
+    
+    </div>
+         
+            </div>
+
+            <div className="carousel-item" data-bs-interval="5000">
+    
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-8">
+          <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"35px"}}><strong> Free Digital Platform</strong></p>
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-8">
+          <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"17px",fontWeight:"bold"}}>Sellers to promote,manage & sell their goos and services</p>
+        </div>
+    </div>
+    <div class="row justify-content-center cbcontainer">
+        <div class="col-md-2">
+        <button class="cbutton" style={{fontFamily:"Comfortaa",border:"1px solid orange",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-default">Learn More</button>
+
+        </div>
+
+        <div class="col-md-2 ">
+        <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#2c3d63",border:"1px solid #2c3d63",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-primary">Register</button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="row justify-content-center" style={{marginTop:"100px"}}>
+<div class="col-md-6"style={{border:"1px solid black",marginTop:"100px",height:"100px",borderRadius:"20px",border:"1px solid orange"}} >
+
+<div class="row" style={{width:"100%",height:"100%"}}>
+<div class="col-md-6" style={{}}>
+
+<div class="row ml-3" style={{marginTop:"9%"}}>
+   <div class="col-md-12" >
+<div class="row justify-content-center" style={{justifyItems:"center"}}>
+<div class="col-md-1">
+<ion-icon id="launchicon" name="cash-outline"></ion-icon>
+
+</div>
+      <div class="col-md-6" style={{flexDirection:"column"}}>
+      <div class="col-md-6" style={{fontFamily:"Comfortaa",color:"#2c3d63",fontWeight:"bold",fontSize:"12px"}}>Launching On</div>
+
+<div class="col-md-6" style={{fontFamily:"Comfortaa",fontSize:"18px",fontWeight:"bold",color:"#2c3d63"}}>April 2021</div>
+      </div>
+      
+
+</div>
+       
+
+   </div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="col-md-6" style={{borderRadius:"20px",border:"1px solid #2c3d63",backgroundColor:"#2c3d63"}}>
+<div class="row">
+   <div class="col-md-12" >
+       
+<div class="row justify-content-center" style={{marginTop:"5%"}}>
+<div class="col-md-1">
+<ion-icon id="staynotify" name="cash-outline"></ion-icon>
+
+</div>
+       <div style={{color:"white",fontFamily:"Comfortaa",fontSize:"12px"}} class="col-md-3">Stay Notified</div>
+</div>
+       
+
+   </div>
+</div>
+
+<div class="row">
+<form class="emailstorecontainer" >
+  <div class="row justify-content-center text-center" style={{flexDirection:"row"}}>
+      <div className="col-9">
+      <input type="email" value={this.state.email} class="form-control email" placeholder="mail@gmail.com" />
+
+      {/* <input type="text" class="form-control" placeholder="&#xF002;"/>  */}
+      {/* <input type="email" value={this.state.email} class="email fa" placeholder="&#xf002; mail@gmail.com"/> */}
+
+
+      {/* <div class="input-icons"> 
+        <i class="fa fa-envelope icon"> 
+      </i> 
+        <input class="form-control" 
+               type="text"
+               placeholder="Email"/> 
+    </div>  */}
+
+      
+
+      </div>
+
+   
+      <div class="col-1 pl-1">
+        <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#fada80",border:"1px solid #fada80",borderRadius:"5px",width:"3rem"}} type="button" class="btn btn-primary">
+
+        <ion-icon id="sendnotify" name="cash-outline" style={{}}></ion-icon>
+
+        </button>
+
+        </div>
+
+    
+ 
+  </div>
+  </form>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+ 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    </div>
+   
+   
+
+            </div></div>
+            </div>
+
+
+            <div class="aboutrowcontainer" style={{marginTop:"20px",backgroundImage: `url(${AboutDiv})`}}>
+         
+         <div class="row justify-content-center" style={{}}>
+           <div class="row abouttextimage" style={{}}>
+             
+           <div class="col-sm-6">
+<img src={AboutImage} className="aboutimage" alt="home img" />
+
+  </div> 
+             <div class="col-sm-6">
+               <div>
+                 <div >
+                   <h1 style={{fontFamily:"Comfortaa",color:"#2c3d63"}} >About US</h1>
+
+                  <div style={{borderBottom:"4px solid #2c3d63",maxWidth:"20%"}}></div>
+                  
+                 </div>
+           <h6 style={{fontFamily:"Comfortaa",color:"#2c3d63",fontWeight:"bold"}}><strong>The power to setup a Business, not just a shop</strong>
+</h6></div>
+<div>
+<div>
+  <p style={{fontFamily:"Comfortaa",color:"#2c3d63"}} >
+  With Motabhaai, you manage orders, inventory and ‘khatas’ from your phone. Plus, you can send digital receipts and payment notifications via WhatsApp, and create an online store to sell your products to anyone, anywhere.
+  With Motabhaai, you manage orders,inventory and ‘khatas’ from your phone.
+
+
+
+  </p>
+  
+  </div>
+ </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     
+                                
+    
+    
+    
+    
+       </div>
+        )
+    }
+}
+
+
+==========================
+Carousel Home Page
+===================
+import React from 'react'
+import blue1 from '../src/images/blue1.png';
+import AboutImage from '../src/images/aboutillustration.png';
+import AboutDiv from '../src/images/backgroundabout.png';
+
+export default class CarouselPage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {email: ''};
+    
+       
+        // this.saveEmailInfo = this.saveEmailInfo.bind(this);
+      }
+    render(){
+        return(
+            <div style={{}}>
+            <div class="container-fluid justify-content-center carouselpagenew" style={{}}>
+            <div id="carouselExampleDark" className="carousel carousel-dark slide homecarousel" data-bs-ride="carousel">
+    
+    <ol className="carousel-indicators" id="home">
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active"></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+        </ol>
+        
+        <div className="carousel-inner">
+    
+        <div className="carousel-item active" data-bs-interval="5000">
+    
+            <div class="row justify-content-center text-center">
+                <div class="col-sm-8">
+                  <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"35px"}}><strong> Free Digital Platform</strong></p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-sm-8">
+                  <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"17px",fontWeight:"bold"}}>Sellers to promote,manage & sell their goos and services</p>
+                </div>
+            </div>
+            <div class="row justify-content-center cbcontainer">
+                <div class="col-md-2">
+                <button class="cbutton" style={{fontFamily:"Comfortaa",border:"1px solid orange",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-default">Learn More</button>
+    
+                </div>
+    
+                <div class="col-md-2 ">
+                <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#2c3d63",border:"1px solid #2c3d63",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-primary">Register</button>
+    
+                </div>
+    
+            </div>
+    
+    
+    
+    
+    
+            <div class="row justify-content-center" style={{marginTop:"100px"}}>
+    <div class="col-md-6"style={{border:"1px solid black",marginTop:"100px",height:"100px",borderRadius:"20px",border:"1px solid orange"}} >
+    
+     <div class="row" style={{width:"100%",height:"100%"}}>
+    <div class="col-md-6" style={{}}>
+    
+       <div class="row ml-3" style={{marginTop:"9%"}}>
+           <div class="col-md-12" >
+    <div class="row justify-content-center" style={{justifyItems:"center"}}>
+    <div class="col-md-1">
+    <ion-icon id="launchicon" name="cash-outline"></ion-icon>
+    
+    </div>
+              <div class="col-md-6" style={{flexDirection:"column"}}>
+              <div class="col-md-6" style={{fontFamily:"Comfortaa",color:"#2c3d63",fontWeight:"bold",fontSize:"12px"}}>Launching On</div>
+    
+    <div class="col-md-6" style={{fontFamily:"Comfortaa",fontSize:"18px",fontWeight:"bold",color:"#2c3d63"}}>April 2021</div>
+              </div>
+              
+    
+    </div>
+               
+    
+           </div>
+       </div>
+        
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-md-6" style={{borderRadius:"20px",border:"1px solid #2c3d63",backgroundColor:"#2c3d63"}}>
+    <div class="row">
+           <div class="col-md-12" >
+               
+    <div class="row justify-content-center" style={{marginTop:"5%"}}>
+    <div class="col-md-1">
+    <ion-icon id="staynotify" name="cash-outline"></ion-icon>
+    
+    </div>
+               <div style={{color:"white",fontFamily:"Comfortaa",fontSize:"12px"}} class="col-md-3">Stay Notified</div>
+    </div>
+               
+
+           </div>
+       </div>
+    
+    <div class="row">
+    <form class="emailstorecontainer" >
+          <div class="row justify-content-center text-center" style={{flexDirection:"row"}}>
+              <div className="col-9">
+              <input type="email" value={this.state.email} class="form-control email" placeholder="mail@gmail.com" />
+
+              {/* <input type="text" class="form-control" placeholder="&#xF002;"/>  */}
+              {/* <input type="email" value={this.state.email} class="email fa" placeholder="&#xf002; mail@gmail.com"/> */}
+
+
+              {/* <div class="input-icons"> 
+                <i class="fa fa-envelope icon"> 
+              </i> 
+                <input class="form-control" 
+                       type="text"
+                       placeholder="Email"/> 
+            </div>  */}
+
+              
+
+              </div>
+        
+           
+              <div class="col-1 pl-1">
+                <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#fada80",border:"1px solid #fada80",borderRadius:"5px",width:"3rem"}} type="button" class="btn btn-primary">
+
+                <ion-icon id="sendnotify" name="cash-outline" style={{}}></ion-icon>
+
+                </button>
+    
+                </div>
+
+            
+         
+          </div>
+          </form>
+    </div>
+    
+    
+    
+        
+       </div>
+    
+    
+     </div>
+     
+      
+    </div>
+    
+    
+    </div>
+         
+            </div>
+
+            <div className="carousel-item" data-bs-interval="5000">
+    
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-8">
+          <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"35px"}}><strong> Free Digital Platform</strong></p>
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-sm-8">
+          <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"17px",fontWeight:"bold"}}>Sellers to promote,manage & sell their goos and services</p>
+        </div>
+    </div>
+    <div class="row justify-content-center cbcontainer">
+        <div class="col-md-2">
+        <button class="cbutton" style={{fontFamily:"Comfortaa",border:"1px solid orange",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-default">Learn More</button>
+
+        </div>
+
+        <div class="col-md-2 ">
+        <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#2c3d63",border:"1px solid #2c3d63",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-primary">Register</button>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="row justify-content-center" style={{marginTop:"100px"}}>
+<div class="col-md-6"style={{border:"1px solid black",marginTop:"100px",height:"100px",borderRadius:"20px",border:"1px solid orange"}} >
+
+<div class="row" style={{width:"100%",height:"100%"}}>
+<div class="col-md-6" style={{}}>
+
+<div class="row ml-3" style={{marginTop:"9%"}}>
+   <div class="col-md-12" >
+<div class="row justify-content-center" style={{justifyItems:"center"}}>
+<div class="col-md-1">
+<ion-icon id="launchicon" name="cash-outline"></ion-icon>
+
+</div>
+      <div class="col-md-6" style={{flexDirection:"column"}}>
+      <div class="col-md-6" style={{fontFamily:"Comfortaa",color:"#2c3d63",fontWeight:"bold",fontSize:"12px"}}>Launching On</div>
+
+<div class="col-md-6" style={{fontFamily:"Comfortaa",fontSize:"18px",fontWeight:"bold",color:"#2c3d63"}}>April 2021</div>
+      </div>
+      
+
+</div>
+       
+
+   </div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="col-md-6" style={{borderRadius:"20px",border:"1px solid #2c3d63",backgroundColor:"#2c3d63"}}>
+<div class="row">
+   <div class="col-md-12" >
+       
+<div class="row justify-content-center" style={{marginTop:"5%"}}>
+<div class="col-md-1">
+<ion-icon id="staynotify" name="cash-outline"></ion-icon>
+
+</div>
+       <div style={{color:"white",fontFamily:"Comfortaa",fontSize:"12px"}} class="col-md-3">Stay Notified</div>
+</div>
+       
+
+   </div>
+</div>
+
+<div class="row">
+<form class="emailstorecontainer" >
+  <div class="row justify-content-center text-center" style={{flexDirection:"row"}}>
+      <div className="col-9">
+      <input type="email" value={this.state.email} class="form-control email" placeholder="mail@gmail.com" />
+
+      {/* <input type="text" class="form-control" placeholder="&#xF002;"/>  */}
+      {/* <input type="email" value={this.state.email} class="email fa" placeholder="&#xf002; mail@gmail.com"/> */}
+
+
+      {/* <div class="input-icons"> 
+        <i class="fa fa-envelope icon"> 
+      </i> 
+        <input class="form-control" 
+               type="text"
+               placeholder="Email"/> 
+    </div>  */}
+
+      
+
+      </div>
+
+   
+      <div class="col-1 pl-1">
+        <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#fada80",border:"1px solid #fada80",borderRadius:"5px",width:"3rem"}} type="button" class="btn btn-primary">
+
+        <ion-icon id="sendnotify" name="cash-outline" style={{}}></ion-icon>
+
+        </button>
+
+        </div>
+
+    
+ 
+  </div>
+  </form>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+ 
+    </div>
+   
+   
+
+            </div></div>
+            </div>
+
+
+            <div class="aboutrowcontainer" style={{marginTop:"20px",backgroundImage: `url(${AboutDiv})`}}>
+         
+         <div class="row justify-content-center" style={{}}>
+           <div class="row abouttextimage" style={{}}>
+             
+           <div class="col-sm-6">
+<img src={AboutImage} className="aboutimage" alt="home img" />
+
+  </div> 
+             <div class="col-sm-6">
+               <div>
+                 <div >
+                   <h1 style={{fontFamily:"Comfortaa",color:"#2c3d63"}} >About US</h1>
+
+                  <div style={{borderBottom:"4px solid #2c3d63",maxWidth:"20%"}}></div>
+                  
+                 </div>
+           <h6 style={{fontFamily:"Comfortaa",color:"#2c3d63",fontWeight:"bold"}}><strong>The power to setup a Business, not just a shop</strong>
+</h6></div>
+<div>
+<div>
+  <p style={{fontFamily:"Comfortaa",color:"#2c3d63"}} >
+  With Motabhaai, you manage orders, inventory and ‘khatas’ from your phone. Plus, you can send digital receipts and payment notifications via WhatsApp, and create an online store to sell your products to anyone, anywhere.
+  With Motabhaai, you manage orders,inventory and ‘khatas’ from your phone.
+
+
+
+  </p>
+  
+  </div>
+ </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     
+                                
+    
+    
+    
+    
+       </div>
+        )
+    }
+}
+
+
+=====================================
+
+CarouselPage Home
+------------------------------
+
+import React from 'react'
+import blue1 from '../src/images/blue1.png';
+import AboutImage from '../src/images/aboutillustration.png';
+import AboutDiv from '../src/images/backgroundabout.png';
+
+export default class CarouselPage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {email: ''};
+    
+       
+        // this.saveEmailInfo = this.saveEmailInfo.bind(this);
+      }
+    render(){
+        return(
+            <div class="container">
+
+              <div class="row">
+              <div class="row">
+                <p style={{color:"#2c3d63",fontSize:"35px",fontFamily:"Comfortaa"}}><strong> Free Digital Platform</strong></p>
+                <p style={{fontFamily:"Comfortaa",color:"#2c3d63",fontSize:"17px",fontWeight:"bold"}}>Sellers to promote,manage & sell their goods and services</p>
+                <div style={{}}>
+                <button class="cbutton" style={{fontFamily:"Comfortaa",border:"1px solid orange",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-default">Learn More</button>
+
+                <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#2c3d63",border:"1px solid #2c3d63",borderRadius:"17px",width:"9rem"}} type="button" class="btn btn-primary">Register</button>
+              </div>
+
+              <div class="row">
+
+              <div>
+<div class="col-md-6"style={{border:"1px solid black",marginTop:"100px",height:"100px",borderRadius:"20px",border:"1px solid orange"}} >
+
+<div class="row" style={{width:"100%",height:"100%"}}>
+<div class="col-md-6" style={{}}>
+
+<div class="row ml-3" style={{marginTop:"9%"}}>
+   <div class="col-md-12" >
+<div class="row justify-content-center" style={{justifyItems:"center"}}>
+<div class="col-md-1">
+<ion-icon id="launchicon" name="cash-outline"></ion-icon>
+
+</div>
+      <div class="col-md-6" style={{flexDirection:"column"}}>
+      <div class="col-md-6" style={{fontFamily:"Comfortaa",color:"#2c3d63",fontWeight:"bold",fontSize:"12px"}}>Launching On</div>
+
+<div class="col-md-6" style={{fontFamily:"Comfortaa",fontSize:"18px",fontWeight:"bold",color:"#2c3d63"}}>April 2021</div>
+      </div>
+      
+
+</div>
+       
+
+   </div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="col-md-6" style={{borderRadius:"20px",border:"1px solid #2c3d63",backgroundColor:"#2c3d63"}}>
+<div class="row">
+   <div class="col-md-12" >
+       
+<div class="row justify-content-center" style={{marginTop:"5%"}}>
+<div class="col-md-1">
+<ion-icon id="staynotify" name="cash-outline"></ion-icon>
+
+</div>
+       <div style={{color:"white",fontFamily:"Comfortaa",fontSize:"12px"}} class="col-md-3">Stay Notified</div>
+</div>
+       
+
+   </div>
+</div>
+
+<div class="row">
+<form class="emailstorecontainer" >
+  <div class="row justify-content-center text-center" style={{flexDirection:"row"}}>
+      <div className="col-9">
+      <input type="email" value={this.state.email} class="form-control email" placeholder="mail@gmail.com" />
+
+     
+      
+
+      </div>
+
+   
+      <div class="col-1 pl-1">
+        <button class="cbutton" id="sbuttonc" style={{fontFamily:"Comfortaa",backgroundColor:"#fada80",border:"1px solid #fada80",borderRadius:"5px",width:"3rem"}} type="button" class="btn btn-primary">
+
+        <ion-icon id="sendnotify" name="cash-outline" style={{}}></ion-icon>
+
+        </button>
+
+        </div>
+
+    
+ 
+  </div>
+  </form>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+ 
+   
+   
+   
+   
+   
+
+
+
+
+
+                
+              </div>
+              </div>
+              </div>
+
+            </div>
+              )
+        }
+
+      }
+
+      ===========================
+      Dilip Sir Navbar 
+     
+      /* ===========================navbar page=========================================== */
+#navbarSupportedContent{
+  justify-content:flex-end;
+}
+
+#navbarSupportedContent  a{
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.navlinkstyle{
+  color: rgb(109, 125, 160);
+  
+}
+
+
+a.active_class{
+  color:rgb(66, 81, 114);
+  border-bottom: 1px solid rgb(66, 81, 114);
+
+}
+
+  
